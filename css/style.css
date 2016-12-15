@@ -31,6 +31,58 @@ body {
 	align-items: center;
 }
 
+.fondo-sec h2 {
+	-webkit-animation: secciona 5s;
+	animation: secciona 5s;
+
+}
+
+@keyframes secciona {
+	0%{opacity:0.1;}
+	50% {opacity:1;}
+	100% {opacity:0.5;}
+} 
+ 
+
+
+@media (max-width: 768px) {
+	.menu-vertical {
+		display:block;		
+	}
+	.menu-box {
+		margin-top:5px;
+	}
+	.bck-clock {
+		display:none;
+	}	
+}
+
+@media (max-width: 768px) {
+	.new-title {
+		display:none;
+	}
+}
+
+@media (max-width: 768px) {
+	.fondo-sec {
+	display:block;
+	width:100% !important;
+	height:140px !important;
+	}
+
+	.fondo-sec h2 {
+	text-align: center !important;
+	}
+
+	#organos {
+		display:none !important;
+	}
+
+	.indice {
+		width:100% !important;
+	}
+}
+
 .menu-vertical .menu-box {
 	border:1px solid #fff;
 	cursor: pointer;
@@ -571,26 +623,17 @@ footer ul {
   padding: 0;
   margin: 0;
 }
+
 footer ul > li {
   display: inline-block;
   margin-left: 15px;
 }
 
 
-
 .contacto{
 	margin-right: 750px;
 	font-size: 35px;
 	color: #00a3ac
-}
-
-
-.bruno-part {
-	
-	background-image:url("../img/formulario.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 700px;
 }
 
 .form{

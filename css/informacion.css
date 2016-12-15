@@ -1,6 +1,6 @@
 
 .fondo-sec {
-	background-color: rgba(182, 197, 13, 0.8);
+	background-color: rgba(227, 132, 0, 0.9);
 	width: 60%;
 	height: 70px;
 	float: left;
@@ -94,11 +94,35 @@
 	margin-bottom:40px;
 }
 
+.fotres-in img {
+	width:100%;
+}
+
 @media (max-width: 768px) {
 	.fotres {
-		display:none;
+		display:none !important;
 	}
 }
+
+@media (max-width: 768px) {
+	.oferta-in  img {
+		display:none !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.planeta img {
+		width:400px !important;
+		height: 300px;
+	}
+	.imagenstand {
+		display: none !important;
+	}
+	.stand-det {
+		width:100% !important;
+	}
+}
+
 
 .porque::before {
 	content:"";
@@ -123,18 +147,14 @@
 .franelo {
 	width:300px !important;
 	height:inherit;
-	border-radius:5px;
-	box-shadow: 1px 1px 1px black;	
 }
 
 .franela {	
-	background: #CF1749;
-	height:120px;
+	background: #E38400;
+	width:50%;
+	height:225px;
 	color: #fff;
-	padding:15px 20px;
-	margin: 0px 20px;
-	border-radius: 5px;
-	box-shadow: 3px 3px 1px black;
+	padding:30px 20px;
 }
 
 #oferta {
@@ -146,7 +166,7 @@
 }
 
 .porque-dat {
-	padding:10px 20px;
+	padding:10px 30px;
 }
 
 #planos {
@@ -167,6 +187,10 @@
 	margin: 0 auto;
 	padding-top:40px;
 	height:400px;
+}
+
+#proveedores {
+	margin-top:40px;
 }
 
 
@@ -208,6 +232,24 @@
 	color: #fff;
 }
 
+.paque1,
+.paque2 {
+	display:flex;
+	margin-top:40px;
+}
+
+.stand-det {
+	width:40%;
+}
+
+.det2 {
+	margin-left:20px;
+}
+
+.imagenstand img {
+	width:600px;
+	padding-left:20px;
+}
 
 
 
