@@ -47,7 +47,19 @@
 	transition: all 0.5s ease-in;
 }
 
-.conver-collage-2 .te-xt-con{
+#sal {
+	color: #BE004B;
+}
+
+#SDP {
+	color: #C2CE28;
+}
+
+#exposiciones {
+	color: #D68700;
+}
+
+.conver-collage-2 .te-xt-con, .conver-collage-2 .te-xt-con-2{
 	font-size: 90px;
 	text-transform: uppercase;
 	color: #1da1ad;
@@ -56,3 +68,4 @@
 	line-height: 90px;
 	margin-left: 10px;
 }
+
