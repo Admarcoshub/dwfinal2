@@ -170,5 +170,47 @@
 }
 
 
+.gys {
+	margin-bottom:40px;
+}
+
+.spons {
+	display: flex;
+	width:90%;
+	margin: 0 auto;
+	justify-content: space-between !important;
+}
+
+.sponsg img {
+	width: 220px;
+	margin-left:20px;
+}
+
+.sponss img {
+	width: 200px;
+	margin-left:20px;
+}
+
+.sponch {
+	display: table;
+	text-align: center;
+}
+
+.cont-img {
+	height:120px;
+}
+
+.notpren {
+	width:100%;
+	text-align: center;
+	background:#E38400;
+	padding:10px 20px;
+	color: #fff;
+}
+
+
+
+
+
 
 
